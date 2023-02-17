@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.search-hero {
+    height: 350px;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("assets/search-banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.form-search {
+    border-radius: 10px 0 0 10px !important;
+}
+
+.btn-search {
+    border-radius: 0 10px 10px 0 !important;
+}
+
+.btn-search i {
+    color: orangered;
+}
+.trending {
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.container {
+    background-color: #242b2b;
+}
+
+.grid {
+    display: grid;
+    margin-left: 0.5px;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    justify-content: center;
+}

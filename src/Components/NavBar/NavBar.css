@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+* {
+    font-family: 'Montserat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-logo {
+    font-family: 'Michroma', sans-serif;
+    color: rgb(173, 153, 84);
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+}
+
+.navbar-logo:hover {
+    color:rgb(173, 153, 84);
+}
+
+.navbar-logo i {
+    font-size: 30px;
+}
+
+.nav-link {
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(173, 153, 84);
+}
+
+.nav-link:hover {
+    color: rgb(173, 153, 84);
+}
+
+.navbar-toggler {
+    color:rgb(173, 153, 84);
+    border: none; 
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+}
